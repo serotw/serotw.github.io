@@ -8,7 +8,7 @@
 		"name": "弒龍網",
 		"url": "https://sero.idv.tw",
 		"host": "sero.idv.tw",
-		"icon": "images/favicon.png"
+		"icon": "./favicon.ico"
 	},
 	"language": {
 		"en": "English",
