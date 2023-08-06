@@ -1,0 +1,407 @@
+{
+	"navbarTitle": "Menu",
+	"cvImagesPath": "//storage.googleapis.com/close.sero.idv.tw/cv/",
+	"web": {
+		"title": "Sero Li",
+		"author": "sero.tw@gmail.com",
+		"copyright": "1997-2023 sero.idv.tw Inc.",
+		"name": "弒龍網",
+		"url": "https://sero.idv.tw",
+		"host": "sero.idv.tw",
+		"icon": "images/favicon.png"
+	},
+	"language": {
+		"en": "English",
+		"zh-tw": "繁體中文"
+	},
+	"lang": {
+		"en": {
+			"about": "About Me",
+			"education": "Education Qualification",
+			"experince": "Job Experience",
+			"skills": "Skills",
+			"historyWebsite": "History Website develop",
+			"historyProgram": "History Program develop",
+			"historyWork": "History Work develop",
+			"historyOther": "History Other develop"
+		},
+		"zh-tw": {
+			"about": "關於我",
+			"education": "學歷",
+			"experince": "工作經驗",
+			"skills": "技術能力",
+			"historyWebsite": "歷年個人網站作品",
+			"historyProgram": "歷年個人程式作品",
+			"historyWork": "歷年工作開發作品",
+			"historyOther": "歷年其他作品"
+		}
+	},
+	"section": [{
+		"name": "news",
+		"data": {
+			"title": "Welcome To My GitHub Website",
+			"text": "Presenting my relevant content here, this website is made with jQuery, Vue.js"
+		},
+		"lang": {
+			"zh-tw": {
+				"title": "歡迎來到我的 GitHub 網站",
+				"text": "在這裡展示我的相關內容，這個網站是用 jQuery, Vue.js 製作"
+			}
+		}
+	}, {
+		"name": "card",
+		"data": [
+			{
+				"title": "Github PHP",
+				"text": "Some PHP Example",
+				"url": "https://github.com/serotw/php"
+			}, {
+				"title": "Github CSS",
+				"text": "Some CSS Code",
+				"url": "https://github.com/serotw/css"
+			}, {
+				"title": "Github JavaScript",
+				"text": "Some JavaScript Code",
+				"url": "https://github.com/serotw/js"
+			}, {
+				"title": "Github Tampermonkey",
+				"text": "Some Tampermonkey Script",
+				"url": "https://github.com/serotw/tampermonkey-script"
+			}, {
+				"title": "Website",
+				"text": "My Website",
+				"url": "https://sero.idv.tw"
+			}, {
+				"title": "VTuber Follow",
+				"text": "I love watching vtuber shows, so I created a website to follow vtuber live",
+				"url": "https://api.sero.idv.tw/vtube"
+			}
+		],
+		"lang": {
+			"zh-tw": {
+				"text": [
+					"一些 PHP 範例",
+					"一些 CSS Code",
+					"一些 JavaScript Code",
+					"一些 Tampermonkey 腳本",
+					"我的個人網站",
+					"我喜歡看 VTuber 的實況，所以建造了一個網站來關注 VTuber 是否有在直播"
+				]
+			}
+		},
+		"extra": "menu"
+	}, {
+		"name": "menu",
+		"data": [],
+		"lang": {}
+	}, {
+		"name": "about",
+		"data": {
+			"name": "Sero Li",
+			"text": "When the Internet boomed in Taiwan in 1996, I was very interested in website construction and started to learn how to write web pages by myself. At that time, ThanksChat V3 was booming, so I turned to research C/C++/C#/ CGI/ Perl and wrote related interactive programs based on this language. Later, due to resource constraints and the emergence of PHP, website development turned to use PHP and other programs. Until now, I am also familiar with SEO operations and RWD CSS during work. MySQL, SQL, and MongoDB, which are required to store data for use and development, have been used in series. APIs such as Google, Facebook, Weibo, WeChat, Line, Message (send letters), Alipay, Oufubao, and Green World have been connected in series, and some have been connected in series. Bank's cash flow service",
+			"image": "images/profile.png"
+		},
+		"lang": {
+			"zh-tw": {
+				"text": "1996年在台灣網路盛起時，對網站架設有極大興趣的我，開始自己學習如何撰寫網頁，當時尋夢園聊天室(ThanksChat V3)盛起，因而轉向投入研究 C/C++/C#/CGI/Perl 並依該語言撰寫了相關的互動式程式，後期因資源關係又加上PHP的出現，所以網站開發轉向使用PHP等程式一直到現在，在工作期間也多少熟知SEO操作、RWD的CSS使用、開發所需要儲存資料的MySQL、SQL、MongoDB都有使用，串接過Google、Facebook、Weibo、WeChat、Line、Message(發信)、支付寶、歐付寶、綠界等API，以及串接過一些銀行的金流服務"
+			}
+		}
+	}, {
+		"name": "skills",
+		"data": {
+			"Frontend": [
+				{"title": "HTML", "rate": 100},
+				{"title": "CSS/CSS3", "rate": 95},
+				{"title": "RWD", "rate": 90},
+				{"title": "Bootstrap", "rate": 85},
+				{"title": "JavaScript", "rate": 100},
+				{"title": "jQuery", "rate": 100},
+				{"title": "Vue.js", "rate": 20}
+			],
+			"Backend": [
+				{"title": "CGI/Perl", "rate": 90},
+				{"title": "PHP", "rate": 100},
+				{"title": "C", "rate": 50},
+				{"title": "C++", "rate": 40},
+				{"title": "C#", "rate": 30},
+				{"title": "Objective-C", "rate": 30},
+				{"title": "Java", "rate": 45},
+				{"title": "Shellcode", "rate": 50},
+				{"title": "Visual basic", "rate": 35},
+				{"title": "Python", "rate": 30}
+			],
+			"Database": [
+				{"title": "MySQL", "rate": 95},
+				{"title": "SQL", "rate": 90},
+				{"title": "MongoDB", "rate": 90}
+			],
+			"Other": [
+				{"title": "SEO", "rate": 60},
+				{"title": "Linux", "rate": 75},
+				{"title": "Memcached", "rate": 20},
+				{"title": "Elasticsearch", "rate": 20},
+				{"title": "Git", "rate": 30},
+				{"title": "GCP", "rate": 10}
+			]
+		}
+	}, {
+		"name": "experince",
+		"data": [
+			{
+				"company": "香港商台灣千里目媒體有限公司",
+				"job": "RD",
+				"text": [
+					"The main work is responsible for dealing with company system-related issues, developing company system programs, etc.",
+					"Responsible for dealing with company system related issues.",
+					"Overall use are: HTML, CSS, RWD, JavaScript, jQuery, Perl, Shellcode, PHP, Mysql, MongoDB, Java, SQL, Linux, Git, Memcached, Elasticsearch"
+				],
+				"timeline": "2018/9-2020/12"
+			}, {
+				"company": "弘遠數位娛樂股份有限公司",
+				"job": "Developer",
+				"text": [
+					"The main job is responsible for dealing with website-related issues, managing domains, managing internal NAS, developing company website programs, etc.",
+					"Responsible for handling website related issues."
+				],
+				"timeline": "2017/12-2018/4"
+			}, {
+				"company": "百世教育科技",
+				"job": "Senior Developer",
+				"text": [
+					"The main work is to develop the systems required by the company, such as learning platforms, cloud systems, data systems, and shopping systems.",
+					"Front-end and back-end development, server processing, connection of various cash flows, data planning, cloud system planning and development, etc., the system is developed, planned and integrated by me alone, and some non-program development issues and program debugging are additionally handled during the development period. .",
+					"Overall use are: HTML, CSS, RWD, SEO, JavaScript, jQuery, MooTools, C3.js, D3.js, PHP, PHP Smarty, Mysql, Java, SQL, Linux"
+				],
+				"timeline": "2010/12-2017/11"
+			}, {
+				"company": "亞柏加油站",
+				"job": "Part-time Foreman",
+				"text": [
+					"The main job is to lead three waiters on weekdays, order goods/transfer goods/account/check accounts on and off work.",
+					"Manage & inventory the resources on the gas station, assist the station manager to deal with on-site customer complaints, repair the machinery and equipment on the gas station, provide refueling services for customers, and handle the documents handed over by the upper management, etc."
+				],
+				"timeline": "2005/9-2009/11"
+			}, {
+				"company": "六西西科技有限公司",
+				"job": "Programmer",
+				"text": [
+					"The main job is to write/modify the CASE assigned by the company.",
+					"Design web pages/programs/pictures/resources for websites, manage & maintain host system status.",
+					"Overall use are: HTML, CSS, JavaScript, CGI/Perl, C++, Linux"
+				],
+				"timeline": "1999/3-2002/10"
+			}
+		],
+		"lang": {
+			"zh-tw": {
+				"job": [
+					"RD",
+					"程式設計師",
+					"資深程式設計師",
+					"兼職領班",
+					"Internet程式設計師"
+				],
+				"text": [
+					[
+						"主要工作負責處理公司系統相關問題，開發公司系統程式等。",
+						"負責處理公司系統相關問題。",
+						"總體使用到的有: HTML, CSS, RWD, JavaScript, jQuery, Perl, Shellcode, PHP, Mysql, MongoDB, Java, SQL, Linux, Git, Memcached, Elasticsearch"
+					], [
+						"主要工作負責處理網站相關問題，管理Domain網域，管理內部NAS，開發公司網站程式等。",
+						"負責處理網站相關問題。"
+					], [
+						"主要工作是開發公司所需要的系統，學習平台、雲端系統、資料系統、購物系統。",
+						"前後端開發、伺服器處理，各金流串接，資料規劃，雲端系統規劃開發等，系統都是由我獨自開發＆規劃＆整合，開發期間要額外處理一些非程式開發問題及程式除錯等。",
+						"總體使用到的有: HTML, CSS, RWD, SEO, JavaScript, jQuery, MooTools, C3.js, D3.js, PHP, PHP Smarty, Mysql, Java, SQL, Linux"
+					], [
+						"主要工作、平日帶領著三位服務員，上下班要點貨/調貨/算帳/核帳。",
+						"管理&盤點加油站站上資源，輔助站長處理現場客訴問題，維修加油站站上機械設備，替客人加油服務，處理上層交代文件等。"
+					], [
+						"主要工作是撰寫/修改公司分派的CASE。",
+						"設計網站用網頁/程式/圖片/資源，管理&維修主機系統狀況，在這期間跟同事也會互相交流程式上的相關問題及解決方法，讓我對於撰寫程式更有方向及想法。",
+						"總體使用到的有: HTML, CSS, JavaScript, CGI/Perl, C++, Linux"
+					]
+				]
+			}
+		}
+	}, {
+		"name": "education",
+		"data": [
+			{
+				"title": "Cheng Shiu University(Taiwan)",
+				"text": "Department of Information Management",
+				"timeline": "2016/9-2020/7"
+			}, {
+				"title": "Kao-Feng Vocational High School(Taiwan)",
+				"text": "Data Processing Section",
+				"timeline": "2011/9-2014/6"
+			}
+		],
+		"lang": {
+			"zh-tw": {
+				"title": [
+					"正修科技大學(台灣)",
+					"高鳳工業家事職業學校(台灣)"
+				],
+				"text": [
+					"資訊管理系",
+					"資料處理科"
+				]
+			}
+		}
+	}, {
+		"name": "historyWebsite",
+		"data": [
+			{
+				"date": 2000,
+				"title": "夢幻聊天網",
+				"image": "2000-1.png"
+			}, {
+				"date": 2000,
+				"title": "夢幻聊天網",
+				"image": "2000-2.png"
+			}, {
+				"date": 2001,
+				"title": "夢幻聊天網",
+				"image": "2001-1.png"
+			}, {
+				"date": 2001,
+				"title": "夢幻聊天網",
+				"image": "2001-2.png"
+			}, {
+				"date": 2001,
+				"title": "夢幻聊天網",
+				"image": "2001-3.png"
+			}, {
+				"date": 2001,
+				"title": "夢幻聊天網",
+				"image": "2001-4.png"
+			}, {
+				"date": 2001,
+				"title": "夢幻聊天網",
+				"image": "2001-5.png"
+			}, {
+				"date": 2002,
+				"title": "夢幻聊天網",
+				"image": "2002.png"
+			}, {
+				"date": 2003,
+				"title": "夢幻聊天網",
+				"image": "2003-1.png"
+			}, {
+				"date": 2003,
+				"title": "夢幻聊天網",
+				"image": "2003-2.png"
+			}, {
+				"date": 2004,
+				"title": "夢幻聊天網",
+				"image": "2004-1.png"
+			}, {
+				"date": 2004,
+				"title": "夢幻聊天網",
+				"image": "2004-2.png"
+			}, {
+				"date": 2005,
+				"title": "夢幻聊天網",
+				"image": "2005-1.png"
+			}, {
+				"date": 2005,
+				"title": "夢幻聊天網",
+				"image": "2005-2.png"
+			}, {
+				"date": 2010,
+				"title": "弒龍網",
+				"image": "2010.png"
+			}, {
+				"date": 2015,
+				"title": "弒龍網",
+				"image": "2015.png"
+			}, {
+				"date": 2017,
+				"title": "弒龍網",
+				"image": "2017.png",
+				"url": "https://sero.idv.tw"
+			}
+		]
+	}, {
+		"name": "historyProgram",
+		"data": [
+			{
+				"date": 2005,
+				"title": "CGI留言版",
+				"image": "CGI-BOOK1.png"
+			}, {
+				"date": 2005,
+				"title": "CGI留言版-版友列表",
+				"image": "CGI-BOOK2.png"
+			}, {
+				"date": 2005,
+				"title": "CGI留言版-伺服列表",
+				"image": "CGI-BOOK3.png"
+			}, {
+				"date": 2005,
+				"title": "CGI聊天室",
+				"image": "CGI-CHAT.png"
+			}, {
+				"date": 2008,
+				"title": "BLog",
+				"image": "BLOG.png"
+			}, {
+				"date": 2008,
+				"title": "ThanksChat聊天室",
+				"image": "C-ThanksChat.png"
+			}
+		]
+	}, {
+		"name": "historyWork",
+		"data": [
+			{
+				"date": 2015,
+				"title": "百世集團官網",
+				"image": "BAIS.png"
+			}, {
+				"date": 2015,
+				"title": "百世-購物系統",
+				"image": "BAIS-STORE.png",
+				"url": "http://store.ebais.com.tw/iedu"
+			}, {
+				"title": "百世-184學習平台",
+				"date": 2017,
+				"image": "BAIS-PSACT.png",
+				"url": "http://psact.ebais.com.tw"
+			}, {
+				"title": "百世-100塾動漫數學網路課堂",
+				"date": 2016,
+				"image": "BAIS-100S.png",
+				"url": "http://100s.ebais.com.tw"
+			}, {
+				"date": 2017,
+				"title": "百世-分校據點地圖",
+				"image": "BAIS-MAP.png"
+			}, {
+				"date": 2018,
+				"title": "弘遠官網",
+				"image": "Horngyeuan.png"
+			}, {
+				"date": 2019,
+				"title": "MVI-Content Manage System",
+				"image": "MVICMS.png"
+			}
+		]
+	}, {
+		"name": "historyOther",
+		"data": [
+			{
+				"date": 2018,
+				"title": "MHW  Jewel  Clac",
+				"image": "MHW-JEWELCLAC.png",
+				"url": "http://api.sero.idv.tw/mhw"
+			}, {
+				"date": 2020,
+				"title": "VTuber Live Status",
+				"image": "API-VTUBER.png",
+				"url": "http://api.sero.idv.tw/vtube"
+			}
+		]
+	}]
+}
