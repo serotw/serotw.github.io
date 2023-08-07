@@ -27,6 +27,7 @@
 	--topBox-zIndex: 1000;
 	--viewerBox-zIndex: 1000;
 }
+
 body::-webkit-scrollbar {
 	width: var(--body-scroll-width);
 	height: var(--body-scroll-height);

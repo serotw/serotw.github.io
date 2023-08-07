@@ -30,18 +30,6 @@
 	margin-right: .35rem;
 }
 
-#debug {
-	display: none!important;
-}
-#debug:not(:empty) {
-	z-index: var(--topBox-zIndex);
-	display: block!important;
-	position: fixed;
-	left: 0.75rem;
-	bottom: 0.75rem;
-}
-
-
 #navbar {
 	min-height: var(--navbar-height);
 	color: var(--navbar-color);

@@ -7,8 +7,7 @@
 		"copyright": "1997-2023 sero.idv.tw Inc.",
 		"name": "弒龍網",
 		"url": "https://sero.idv.tw",
-		"host": "sero.idv.tw",
-		"icon": "./favicon.ico"
+		"host": "sero.idv.tw"
 	},
 	"language": {
 		"en": "English",

@@ -590,12 +590,7 @@
 					const main = self.getElement('root');
 				//
 					if(isNull(self.obViewer)) {
-						self.obViewer = $.obViewer(main, {
-							debug: true,
-							selector: '*[id][data-viewer-title]'
-						}, function() {
-							// pp(this)
-						});
+						self.obViewer = $.obViewer(main, { selector: '*[id][data-viewer-title]' });
 					}else {
 						self.obViewer.updated();
 					}
