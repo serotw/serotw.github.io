@@ -57,11 +57,11 @@
 			}, {
 				"title": "Github CSS",
 				"text": "Some CSS Code",
-				"url": "https://github.com/serotw/css"
+				"url": "https://github.com/serotw/css-code"
 			}, {
 				"title": "Github JavaScript",
 				"text": "Some JavaScript Code",
-				"url": "https://github.com/serotw/js"
+				"url": "https://github.com/serotw/js-code"
 			}, {
 				"title": "Github Tampermonkey",
 				"text": "Some Tampermonkey Script",
@@ -400,6 +400,11 @@
 				"title": "VTuber Live Status",
 				"image": "API-VTUBER.png",
 				"url": "http://api.sero.idv.tw/vtube"
+			}, {
+				"date": 2022,
+				"title": "Follow Stream Channel",
+				"image": "STREAMING_FOLLOW.png",
+				"url": "http://follow.sero.idv.tw"
 			}
 		]
 	}]
