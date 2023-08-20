@@ -394,17 +394,17 @@
 				"date": 2018,
 				"title": "MHW  Jewel  Clac",
 				"image": "MHW-JEWELCLAC.png",
-				"url": "http://api.sero.idv.tw/mhw"
+				"url": "https://api.sero.idv.tw/mhw"
 			}, {
 				"date": 2020,
 				"title": "VTuber Live Status",
 				"image": "API-VTUBER.png",
-				"url": "http://api.sero.idv.tw/vtube"
+				"url": "https://api.sero.idv.tw/vtube"
 			}, {
 				"date": 2022,
 				"title": "Follow Stream Channel",
 				"image": "STREAMING_FOLLOW.png",
-				"url": "http://follow.sero.idv.tw"
+				"url": "https://follow.sero.idv.tw"
 			}
 		]
 	}]
