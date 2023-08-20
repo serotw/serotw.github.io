@@ -46,6 +46,11 @@
 #navbar .nav-link:hover,
 #navbar a:hover {
 	color: var(--navbar-hover-color);
+	background-color: rgba(0,0,0,.175);
+}
+#navbar .navbar-brand:hover,
+#navbar .nav-link:hover{
+	border-radius: 4px;
 }
 #navbar .offcanvas-lg {
 	border-left: 0;

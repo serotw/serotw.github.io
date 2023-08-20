@@ -19,9 +19,9 @@
 	--reset-scroll-bd-radius: 8px;
 	--navbar-height: 60px;
 	--navbar-color: #fff;
-	--navbar-hover-color: #ff0;
-	--navbar-bg: #1b1b1b;
-	--navbar-bg-rgb: 27,27,27;
+	--navbar-hover-color: #ffe;
+	--navbar-bg: #29547e;
+	--navbar-bg-rgb: 41,84,126;
 	--card-min-height: 180px;
 	--empty-base64-image-url: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");
 	--topBox-zIndex: 1000;

@@ -8,9 +8,10 @@
 	<meta v-pre name="theme-color" content="#29547e" />
 	<title v-text="web.title">Sero Li</title>
 	<meta v-pre name="viewport" content="width=device-width, initial-scale=1" />
-	<meta v-pre name="robots" content="index, follow" />
 	<meta name="author" :content="web.author" />
 	<meta name="copyright" :content="web.copyright" />
+	<meta v-pre name="google" content="notranslate" />
+	<meta v-pre name="robots" content="index, follow" />
 	<link v-pre defer rel="icon" type="image/x-icon" href="./favicon.ico" />
 	<link v-pre defer rel="bookmark" type="image/x-icon" href="./favicon.ico" />
 	<link v-pre defer rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
@@ -19,7 +20,7 @@
 	<link v-pre defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" crossorigin="anonymous" />
 	<link v-pre defer rel="stylesheet" type="text/css" href="css/docs.css" />
 	<link v-pre defer rel="stylesheet" type="text/css" href="css/main.css" />
-	<script v-pre src="/js-code/google.Analytics/executeGa.min.js"></script>
+	<script v-pre src="/js-code/Google.plugins/google.Analytics/executeGa.min.js"></script>
 	<script v-pre id="cache-ga-script">!(function(x){executeGa&&executeGa(x);(function(s,g,a){a=s.getElementById(g);a&&a.parentElement.removeChild(a)})(document,'cache-ga-script')})('G-QB5CKX81LV');</script>
 </head>
 <body>
@@ -27,10 +28,12 @@
 	<div id="app">
 		<header class="navbar navbar-expand-lg sticky-top" id="navbar">
 			<nav class="container-xxl flex-wrap flex-lg-nowrap">
-				<div class="d-lg-none" style="width: 2.25rem;"></div>
-				<a href="./" class="navbar-brand p-0 me-0 me-lg-2">
-					<i class="bi bi-github"></i>
-				</a>
+				<div class="col-4 col-lg-auto d-lg-none"></div>
+				<div class="col-4 col-lg-auto d-flex align-items-center justify-content-center me-lg-2">
+					<a href="./" class="navbar-brand p-2 me-0 lh-1">
+						<i class="bi bi-github"></i>
+					</a>
+				</div>
 				<div class="offcanvas-lg offcanvas-end flex-grow-1" aria-labelledby="bdNavbarOffcanvasLabel" id="bdNavbar">
 					<div class="offcanvas-header px-4 pb-0">
 						<h5 v-text="navbarTitle" class="offPcanvas-title text-white" id="bdNavbarOffcanvasLabel"></h5>
@@ -40,7 +43,7 @@
 						<hr v-if="menu" class="d-lg-none text-white-50" />
 						<ul v-if="menu" class="navbar-nav flex-row flex-wrap">
 							<li v-for="data in menu" class="nav-item col-6 col-lg-auto">
-								<a class="nav-link py-2 px-0 px-lg-2 text-nowrap toe-hidden lh-1 d-flex justify-content-start align-items-center" v-bind:href="[isUrl(data.url) ? data.url : 'javascript:void(0)']" :alt="data.title" :title="data.title" data-bs-toggle="tooltip" data-bs-placement="bottom" :data-bs-title="data.title" target="_blank">
+								<a class="nav-link p-2 text-nowrap toe-hidden lh-1 d-flex justify-content-start align-items-center" v-bind:href="[isUrl(data.url) ? data.url : 'javascript:void(0)']" :alt="data.title" :title="data.title" data-bs-toggle="tooltip" data-bs-placement="bottom" :data-bs-title="data.title" target="_blank">
 									<img v-if="isUrl(data.url)" class="img-favicon pe-none me-2" width="16" height="16" referer="no-referer" :src="getFavicon(data.url)" />
 									<span v-text="data.text"></span>
 								</a>
@@ -48,7 +51,7 @@
 						</ul>
 					</div>
 				</div>
-				<div class="d-flex">
+				<div class="col-4 col-lg-auto d-flex align-items-center justify-content-end">
 					<ul v-if="language" class="navbar-nav flex-row flex-wrap ms-md-auto">
 						<li class="nav-item dropdown">
 							<button class="btn btn-link nav-link dropdown-toggle d-flex p-2 align-items-center" type="button" data-bs-toggle="dropdown">
