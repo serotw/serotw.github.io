@@ -97,7 +97,12 @@
 		"name": "about",
 		"data": {
 			"name": "Sero Li",
-			"text": "When the Internet boomed in Taiwan in 1996, I was very interested in website construction and started to learn how to write web pages by myself. At that time, ThanksChat V3 was booming, so I turned to research C/C++/C#/ CGI/ Perl and wrote related interactive programs based on this language. Later, due to resource constraints and the emergence of PHP, website development turned to use PHP and other programs. Until now, I am also familiar with SEO operations and RWD CSS during work. MySQL, SQL, and MongoDB, which are required to store data for use and development, have been used in series. APIs such as Google, Facebook, Weibo, WeChat, Line, Message (send letters), Alipay, Oufubao, and Green World have been connected in series, and some have been connected in series. Bank's cash flow service",
+			"text": [
+				"In 1996, as the internet rapidly grew in Taiwan, I began self-learning website setup and web development. At that time, with the popularity of ThanksChat V3 (Xunmengyuan Chatroom), I devoted myself to studying programming languages such as C/C++, C#, CGI, and Perl, developing interactive applications.",
+				"As resources and technology evolved, I transitioned to PHP web development, which I have been engaged in ever since. Throughout my career, I have accumulated extensive practical experience in SEO optimization, responsive web design (RWD), and various databases including MySQL, SQL, and MongoDB.",
+				"While working, I continued my education and obtained a Bachelor’s degree in Information Management in 2020. I chose this field because during my work integrating various APIs and handling financial systems, I realized the importance of theory and system architecture, and I wanted a more comprehensive understanding of the underlying technology and business processes.",
+				"Additionally, I have experience integrating APIs from Google, YouTube, Twitch, Facebook, Weibo, WeChat, Line, email services, Alipay, O’Pay, Green World, and multiple banks’ payment gateways. I am capable of cross-language and multi-platform integration, supporting multi-client systems and information security management needs."
+			],
 			"image": "images/profile.png"
 		},
 		"lang": {
