@@ -45,12 +45,7 @@
 							<li v-for="data in menu" class="nav-item col-6 col-lg-auto">
 								<a class="nav-link p-2 text-nowrap toe-hidden lh-1 d-flex justify-content-start align-items-center" v-bind:href="[isUrl(data.url) ? data.url : 'javascript:void(0)']" :alt="data.title" :title="data.title" data-bs-toggle="tooltip" data-bs-placement="bottom" :data-bs-title="data.title" target="_blank">
 									<img v-if="isUrl(data.url)" class="img-favicon pe-none me-2" width="16" height="16" referer="no-referer" :src="getFavicon(data.url)" />
-									<template v-if="Array.isArray(data.text)">
-										<p v-for="(para, idx) in data.text" :key="idx" v-text="para"></p>
-									</template>
-									<template v-else>
-										<span v-text="data.text"></span>
-									</template>
+									<span v-text="data.text"></span>
 								</a>
 							</li>
 						</ul>
@@ -118,7 +113,14 @@
 								<h4 class="profile-name mx-3 fw-bold text-center">
 									<strong v-text="data.data.name" class="section-tag-title" :title="data.data.name" data-bs-toggle="tooltip" :data-bs-title="data.data.name"></strong>
 								</h4>
-								<p v-text="data.data.text" class="profile-text mt-3 mx-3 lh-base"></p>
+								<template v-if="Array.isArray(data.data.text)">
+									<p v-for="(para, idx) in data.data.text" :key="idx" v-text="para" class="profile-text mt-3 mx-3 lh-base"></p>
+								</template>
+								<template v-else>
+									<p v-text="data.data.text" class="profile-text mt-3 mx-3 lh-base"></p>
+								</template>
+
+								
 							</div>
 						</div>
 					</div>
