@@ -45,7 +45,12 @@
 							<li v-for="data in menu" class="nav-item col-6 col-lg-auto">
 								<a class="nav-link p-2 text-nowrap toe-hidden lh-1 d-flex justify-content-start align-items-center" v-bind:href="[isUrl(data.url) ? data.url : 'javascript:void(0)']" :alt="data.title" :title="data.title" data-bs-toggle="tooltip" data-bs-placement="bottom" :data-bs-title="data.title" target="_blank">
 									<img v-if="isUrl(data.url)" class="img-favicon pe-none me-2" width="16" height="16" referer="no-referer" :src="getFavicon(data.url)" />
-									<span v-text="data.text"></span>
+									<template v-if="Array.isArray(data.text)">
+										<p v-for="(para, idx) in data.text" :key="idx" v-text="para"></p>
+									</template>
+									<template v-else>
+										<span v-text="data.text"></span>
+									</template>
 								</a>
 							</li>
 						</ul>
